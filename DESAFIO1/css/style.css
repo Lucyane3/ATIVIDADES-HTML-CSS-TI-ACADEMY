@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;   
+}
+
+header, main, footer{
+    font-family: helvetica;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+    position: absolute;
+}
+
+.logo {
+    width: 100%;
+    padding:10px 10px 10px 100px;
+    color: white;
+    font-size: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    padding-right: 200px;
+    position: absolute;
+    top: 10px;
+}
+
+a{
+    color: white;
+    padding:20px;
+    text-decoration: none;
+}
+
+.home{
+    padding:4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px; 
+    margin-right: 10px;
+    background-color: #F9A825;
+}
+
+.contato{
+    padding: 10px 5px 10px 5px;
+}
+
+.contato:hover{
+    padding: 10px 5px 10px 5px;
+    background-color: red;
+}
+
+#boxMain {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    top: 200px;
+    position: relative;
+} 
+
+.estante {
+    width: 300px;
+    height: 150px;
+    position:relative;
+    left: 30px;
+    top: 70px;
+}
+
+.boxEmail{
+    width: 300px;
+    height: 200px;
+    left: 350px;
+    position: relative;
+    bottom: 270%;
+    text-align: center;
+}
+
+.txt{
+    width: 300px;
+    height: 30px;
+    top: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#botao{
+    width: 100px;
+    height: 30px;
+    top: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color:#2e48db ;
+    border: 2px solid black;
+    position:relative;
+}
+
+.coluna {
+    width: 0;
+    height: 300px;    
+    margin: 0 auto;    
+    left: 60%;
+    bottom: 130%;
+    border: 1px dotted black;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #212121;    
+    bottom: 0;
+    position: fixed;
+} 
+
+#tiacademy {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+    display: a; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1.5em;
+} 
